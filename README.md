@@ -1,2 +1,4 @@
-# programming-graphics
-semestral work for programming graphics - opengl, glut, c++
+# PGR-semestralka
+
+semester work for graphics programming
+opengl, glut, c++

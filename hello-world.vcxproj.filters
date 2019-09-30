@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="init_glut.cpp">
+      <Filter>Core\Init</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_manager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="model_manager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="shader_manager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="loaded_model.cpp">
+      <Filter>Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="skybox.cpp">
+      <Filter>Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="bird.cpp">
+      <Filter>Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="flight_assistant.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="campfire.cpp">
+      <Filter>Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="fire.cpp">
+      <Filter>Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="ufo.cpp">
+      <Filter>Rendering\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="happy_cube.cpp">
+      <Filter>Rendering\Models</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{ec686c85-bc41-4b86-883f-77b784b8a60b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{defd53b9-ef8b-4c05-a6dc-1280384fa31e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Init">
+      <UniqueIdentifier>{6e8d29bd-61fa-4c5f-97df-cb8e256d2107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{0a226c43-5d62-4f03-ad6d-add2ef3f9903}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{477d43ec-26a8-481e-8c65-a52fd5b7f506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Models">
+      <UniqueIdentifier>{dab920d2-bfc7-4e89-b366-f77ab8d3f1ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="window_info.h">
+      <Filter>Core\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="frame_buffer_info.h">
+      <Filter>Core\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="init_glut.h">
+      <Filter>Core\Init</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_manager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="model_manager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_manager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="loaded_model.h">
+      <Filter>Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="skybox.h">
+      <Filter>Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="bird.h">
+      <Filter>Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="flight_assistant.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="campfire.h">
+      <Filter>Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="fire.h">
+      <Filter>Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="ufo.h">
+      <Filter>Rendering\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="happy_cube.h">
+      <Filter>Rendering\Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="skybox_vert_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="skybox_frag_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="animated_vert_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="animated_frag_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="fire_vert_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="fire_frag_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="light_vert_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="light_frag_shader.glsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
